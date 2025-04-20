@@ -54,6 +54,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
    })
+AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
+  end
+   })
+AddButton(Tab1o, {
+     Name = "Maru Hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+   })
    AddButton(Tab2o, {
      Name = "Teleport End",
     Callback = function()
